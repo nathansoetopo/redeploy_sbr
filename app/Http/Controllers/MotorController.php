@@ -46,7 +46,7 @@ class MotorController extends Controller
     {
         $request->validate(
             [
-                'nama_produk' => 'required|unique:motors',
+                'nama_produk' => 'required',
                 'tipe' => 'required',
                 'plat' => 'required',
                 'transmisi' => 'required',

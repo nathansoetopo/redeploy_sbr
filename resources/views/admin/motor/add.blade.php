@@ -73,16 +73,9 @@
                                                     <input type="text" class="form-control" name="harga" id="rupiah">
                                                 </div>
                                             </div>
-                                            <!--<div class="form-group row mb-4">-->
-                                            <!--    <label-->
-                                            <!--        class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Type Motor</label>-->
-                                            <!--    <div class="col-sm-12 col-md-7">-->
-                                            <!--        <input type="text" class="form-control" name="type_motor">-->
-                                            <!--    </div>-->
-                                            <!--</div>-->
                                               <div class="form-group row mb-4">
                                                 <label
-                                                class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Transmisi</label>
+                                                class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Tipe Motor</label>
                                                 <div class="col-sm-12 col-md-7">
                                                 <select class="form-control select2" name="type_motor">
                                                   <option value="Matic">Matic</option>
@@ -96,7 +89,7 @@
                                             </div>
                                             <div class="form-group row mb-4">
                                                 <label
-                                                    class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Berat</label>
+                                                    class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Berat Motor</label>
                                                 <div class="col-sm-12 col-md-7">
                                                     <input type="text" class="form-control" name="berat">
                                                 </div>
@@ -131,7 +124,7 @@
                                             </div>
                                             <div class="form-group row mb-4">
                                                 <label
-                                                    class="col-form-label text-md-right col-12 col-md-3 col-lg-3">PxLxT</label>
+                                                    class="col-form-label text-md-right col-12 col-md-3 col-lg-3">PxLxT (Volume)</label>
                                                 <div class="col-sm-12 col-md-7">
                                                     <input type="text" class="form-control" name="volume">
                                                 </div>
@@ -146,7 +139,7 @@
 
                                             <div class="form-group row mb-4">
                                                 <label
-                                                    class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Gambar</label>
+                                                    class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Gambar Cover</label>
                                                 <div class="col-sm-12 col-md-7">
                                                     <input type="file" class="form-control" name="image">
                                                 </div>
