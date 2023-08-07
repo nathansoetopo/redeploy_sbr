@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
           <a href="{{ '/' }}">
-        <img class="image1" style="transform: translate(-15px, -13px);" src="{{ asset('assets/images/LOGOSBR2.png') }}" alt="yamaha solo">
+        {{-- <img class="image1" style="transform: translate(-15px, -13px);" src="{{ asset('assets/images/LOGOSBR2.png') }}" alt="yamaha solo"> --}}
         </a>
         <div class="navbar-brand" href="index.html">
           <h2 style="transform: translate(0px, -5px);">SUMBER BARU<em style="color: white;">&nbsp;REJEKI</em></h2>

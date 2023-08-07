@@ -1,6 +1,14 @@
 /node_modules
+/public/build
 /public/hot
 /public/storage
+/public/Stisla/node_modules
+/public/images/motor
+/public/images/accesories
+/public/images/spesifikasi
+/public/images/tabel
+/public/images/judul
+/public/data_motor
 /storage/*.key
 /vendor
 .env

@@ -710,9 +710,6 @@
     <a href="https://api.whatsapp.com/send/?phone=%2B6281329296789&text&app_absent=0" class="tab text-dark" style="background:none;">
       <img style="width: 90%;" src="{{ asset('assets/images/BOKING SERVICE.png') }}" alt="yamaha di solo">
     </a>
-    <!-- <a href="#" class="tab text-dark">
-      <i class="fas fa-map-marker-alt fa-lg"></i>
-    </a> -->
   </div>
   <!--Float Button-->
   <div class="container float" style="width: 70px; width: absolute;  margin-right: 20px; box-shadow: inset;">
@@ -744,15 +741,15 @@
   <!-- Page Content -->
   <!-- Banner Starts Here -->
   <div class="w3-content w3-section" style="margin-bottom: -100px;">
-    <img class="mySlides" src="{{ asset('assets/images/carousel/11.png') }}" style="width:100%;" alt="yamaha di solo">
-    <img class="mySlides" src="{{ asset('assets/images/carousel/12.png') }}" style="width:100%;" alt="yamaha di solo">
-    <img class="mySlides" src="{{ asset('assets/images/carousel/13.png') }}" style="width:100%;" alt="yamaha di solo">
-    <img class="mySlides" src="{{ asset('assets/images/carousel/14.png') }}" style="width:100%;" alt="yamaha di solo">
-    <img class="mySlides" src="{{ asset('assets/images/carousel/15.png') }}" style="width:100%;" alt="yamaha di solo">
-    <img class="mySlides" src="{{ asset('assets/images/carousel/16.png') }}" style="width:100%;" alt="yamaha di solo">
-    <img class="mySlides" src="{{ asset('assets/images/carousel/17.png') }}" style="width:100%;" alt="yamaha di solo">
-    <img class="mySlides" src="{{ asset('assets/images/carousel/18.png') }}" style="width:100%;" alt="yamaha di solo">
-    <img class="mySlides" src="{{ asset('assets/images/carousel/19.png') }}" style="width:100%;" alt="yamaha di solo">
+    <img class="mySlides" src="{{ asset('assets/images/carousel/1.png') }}" style="width:100%;" alt="yamaha di solo">
+    <img class="mySlides" src="{{ asset('assets/images/carousel/2.png') }}" style="width:100%;" alt="yamaha di solo">
+    <img class="mySlides" src="{{ asset('assets/images/carousel/3.png') }}" style="width:100%;" alt="yamaha di solo">
+    <img class="mySlides" src="{{ asset('assets/images/carousel/4.png') }}" style="width:100%;" alt="yamaha di solo">
+    <img class="mySlides" src="{{ asset('assets/images/carousel/5.png') }}" style="width:100%;" alt="yamaha di solo">
+    <img class="mySlides" src="{{ asset('assets/images/carousel/6.png') }}" style="width:100%;" alt="yamaha di solo">
+    <img class="mySlides" src="{{ asset('assets/images/carousel/7.png') }}" style="width:100%;" alt="yamaha di solo">
+    <img class="mySlides" src="{{ asset('assets/images/carousel/8.png') }}" style="width:100%;" alt="yamaha di solo">
+    <img class="mySlides" src="{{ asset('assets/images/carousel/9.png') }}" style="width:100%;" alt="yamaha di solo">
   </div>
   <!-- Banner Ends Here -->
   <!-- Menu Mobile -->

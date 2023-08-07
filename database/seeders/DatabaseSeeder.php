@@ -24,8 +24,8 @@ class DatabaseSeeder extends Seeder
             DealerSeeder::class,
             OliSeeder::class,
             AccesoriesSeeder::class,
-            HargaSeeder::class,
-            WarnaSeeder::class,
+            // HargaSeeder::class,
+            // WarnaSeeder::class,
             // JudulSeeder::class,
         ]);
     }

@@ -1,7 +1,6 @@
 <?php
 
 use App\Models\Oli;
-use App\Models\Motor;
 use App\Models\Region;
 use App\Models\Accesories;
 use Illuminate\Support\Facades\Route;
@@ -14,7 +13,6 @@ use App\Http\Controllers\ContentController;
 use App\Http\Controllers\WilayahController;
 use App\Http\Controllers\AccesoriesController;
 use App\Http\Controllers\ArtikelController;
-use App\Models\Artikel;
 
 /*
 |--------------------------------------------------------------------------
@@ -99,7 +97,7 @@ Route::middleware('auth')->group(function () {
         Route::get('admin/wilayah/edit/{id}', [WilayahController::class, 'edit']);
         Route::post('admin/wilayah/update/{id}', [WilayahController::class, 'update']);
         Route::get('admin/wilayah/delete/{id}', [WilayahController::class, 'destroy']);
-        
+
         Route::get('admin/artikel', [ArtikelController::class, 'index'])->name('index.artikel');
         Route::get('admin/artikel/add', [ArtikelController::class, 'create'])->name('create.artikel');
         Route::post('admin/artikel/add', [ArtikelController::class, 'store'])->name('store.artikel');
