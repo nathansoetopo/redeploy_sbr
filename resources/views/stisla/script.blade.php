@@ -20,7 +20,8 @@
 <script src="{{ asset('Stisla/node_modules/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js') }}"></script>
 <script src="{{ asset('Stisla/node_modules/bootstrap-timepicker/js/bootstrap-timepicker.min.js') }}"></script>
 <script src="{{ asset('Stisla/node_modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js') }}"></script>
-<script src="{{ asset('Stisla/node_modules/select2/dist/js/select2.full.min.js') }}"></script>
+{{-- <script src="{{ asset('Stisla/node_modules/select2/dist/js/select2.full.min.js') }}"></script> --}}
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script src="{{ asset('Stisla/node_modules/selectric/public/jquery.selectric.min.js') }}"></script>
 <script src="{{ asset('Stisla/node_modules/summernote/dist/summernote-bs4.js') }}"></script>
 <script src="{{ asset('Stisla/node_modules/datatables/media/js/jquery.dataTables.min.js') }}"></script>

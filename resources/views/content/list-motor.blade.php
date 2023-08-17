@@ -7,7 +7,7 @@
     .btn:active {
         outline: 0 !important;
     }
-    
+
     /* SubNav */
 @media only screen and (max-width: 600px) {
     /* .subnav-content {
@@ -822,7 +822,7 @@
                 </div>
                 <div class="col-4 col-md-2" id="col-subnav">
                     <div class="sub-content-subnav">
-                        <a href="#" onclick="getCategoryMotor('Naked Bike', '{{$wilayah->nomor_polisi}}')"
+                        <a href="#" onclick="getCategoryMotor('naked', '{{$wilayah->nomor_polisi}}')"
                             class="subnav text-white bg-transparent">NAKED BIKE</a>
                     </div>
                 </div>
@@ -866,7 +866,7 @@
                                                 <a href="{{ url('/produk/list-motor/detail/'.$motor->id) }}">
                                                     <h4>{{ $motor->nama_produk }}</h4>
                                                 </a>
-                                                <h6>{{ $motor->harga->harga }}</h6>
+                                                <h6>Rp. {{ number_format($motor->harga->harga, 2) }}</h6>
                                             </div>
                                         </div>
                                     </div>

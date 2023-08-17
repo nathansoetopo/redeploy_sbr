@@ -13,13 +13,11 @@ class MotorSeeder extends Seeder
     public function run()
     {
         collect([
-
             //AD
             [
                 'nama_produk' => 'Vega Force DB CW',
                 'tipe' => 'Air cooled 4-stroke, SOHC',
                 'plat' => 'AD',
-                // 'harga' => NULL,
                 'transmisi' => 'Manual',
                 'vol_silinder' => '124.86 cc',
                 'suspensi_depan' => 'Telescopik',
@@ -28,14 +26,13 @@ class MotorSeeder extends Seeder
                 'berat' => '96kg',
                 'kapasitas_tangki' => '4.0L',
                 'sistem_start' => 'Electric starter & Kick Starter',
-                // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/VEGA FORCE/1_hitam.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'JUPITER Z CW FI',
                 'tipe' => 'Liquid cooled, 4-Stroke, SOHC, 4 Valves, VVA',
                 'plat' => 'AD',
-                // 'harga' => NULL,
                 'transmisi' => 'Manual',
                 'vol_silinder' => '110 cc',
                 'suspensi_depan' => 'Telescopik',
@@ -44,8 +41,8 @@ class MotorSeeder extends Seeder
                 'berat' => '101 Kg',
                 'kapasitas_tangki' => '4.1L',
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
-                // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/JUPITER Z1/1_hitam.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'MX KING',
@@ -62,6 +59,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/MX KING 150/MX KING 150/3_biru.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'MX KING GP MONSTER',
@@ -78,6 +76,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/MX KING 150/MX KING 150 WGP 60th/2022030219293221324W22660.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'MIO M3 SPOKE',
@@ -93,7 +92,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2 L',
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/4_biru.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/1_hitam.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'MIO M3 CW',
@@ -109,7 +109,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2 L',
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/4_biru.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/1_hitam.png',
+                'type_motor' => 'matic'
             ],
 
             [
@@ -127,6 +128,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Matic/GEAR 125/Standart ver/2_hitam.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'GEAR 125 S Version',
@@ -142,7 +144,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2L',
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/GEAR 125/S ver/merah.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/GEAR 125/S ver/1_merah.png',
+                'type_motor' => 'matic'
             ],
 
             [
@@ -159,7 +162,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2L',
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Premium/abu.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Premium/2_abu.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'FINO SPORTY 125 BLUE CORE',
@@ -175,7 +179,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2L',
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Sporty/tosca.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Sporty/3_tosca.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'FAZZIO NEO',
@@ -192,6 +197,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Matic/Fazio/Neo/1_ijo.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'FAZZIO LUX',
@@ -207,7 +213,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '5.1L',
                 'sistem_start' => 'Electric Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/Fazio/Lux/hitam.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/Fazio/Lux/1_hitam.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'NEW X-RIDE',
@@ -224,6 +231,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Matic/X Ride/3_biru.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'Lexi',
@@ -240,6 +248,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/Lexi/Lexi/blue.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'Lexi S Version',
@@ -256,6 +265,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/Lexi/S ABS/2022040513275378298R31658.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'All New Aerox 155 C',
@@ -272,6 +282,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW AEROX 155 CONNECTED/Connected Ver/1_hitam.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'All New Aerox 155 C/ABS',
@@ -288,6 +299,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW AEROX 155 CONNECTED/Connected ABS Ver/silver.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'ALL NEW VIXION',
@@ -304,6 +316,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/VIXION/VIXIOn/2_merah.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW VIXION R',
@@ -320,6 +333,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/VIXION/R/hitam.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW R15 CONNECTED',
@@ -336,6 +350,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/ALL NEW R15 CONNECTED/Connected/2_biru.png',
+                'type_motor' => 'sport'
             ],
             [
                 'nama_produk' => 'ALL NEW R15 CONNECTED-ABS',
@@ -352,6 +367,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/ALL NEW R15 CONNECTED/Connected ABS/silver.png',
+                'type_motor' => 'sport'
             ],
             [
                 'nama_produk' => 'ALL NEW R15M CONNECTED-ABS WGP 60TH',
@@ -368,6 +384,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/ALL NEW R15 CONNECTED/Connected ABS WGP 60th/r.png',
+                'type_motor' => 'sport'
             ],
             [
                 'nama_produk' => 'ALL NEW XSR-155',
@@ -384,6 +401,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/XSR-155/3_biru.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW XSR-155 WGP 60TH',
@@ -400,6 +418,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/XSR-155/WGP 60th/2022021515510959881I62270.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'WR155R',
@@ -416,6 +435,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Off Road/WR155R/WR155 R/1_hitam.png',
+                'type_motor' => 'offroad'
             ],
             [
                 'nama_produk' => 'WR155R GP MONSTER',
@@ -432,6 +452,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Off Road/WR155R/WR155 R Monster Energy Yamaha Racing Liverly/biru.png',
+                'type_motor' => 'offroad'
             ],
             [
                 'nama_produk' => 'R25',
@@ -448,6 +469,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/R25/3_biru.png',
+                'type_motor' => 'sport'
             ],
 
             [
@@ -465,6 +487,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/MT-25/1_abu.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'MT-15',
@@ -481,6 +504,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/MT-15/2_biru.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW NMAX ABS CONNECTED',
@@ -497,6 +521,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW NMAX 155/Connected ABS Ver/hitam.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'ALL NEW NMAX 155 CONNECTED',
@@ -513,6 +538,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW NMAX 155/Connected Ver/red.png',
+                'type_motor' => 'maxi'
             ],
 
             [
@@ -530,6 +556,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW NMAX 155/Standart Ver/3_biru tua.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'XMAX',
@@ -546,6 +573,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/XMAX/1_hitam.png',
+                'type_motor' => 'maxi'
             ],
 
             //AB
@@ -564,6 +592,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/VEGA FORCE/1_hitam.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'JUPITER Z CW FI',
@@ -580,6 +609,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/JUPITER Z1/1_hitam.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'MX KING',
@@ -596,6 +626,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/MX KING 150/MX KING 150/3_biru.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'MX KING GP MONSTER',
@@ -612,6 +643,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/MX KING 150/MX KING 150 WGP 60th/2022030219293221324W22660.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'MIO M3 SPOKE',
@@ -627,7 +659,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2 L',
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/4_biru.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/1_hitam.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'MIO M3 CW',
@@ -643,7 +676,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2 L',
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/4_biru.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/1_hitam.png',
+                'type_motor' => 'matic'
             ],
 
             [
@@ -661,6 +695,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Matic/GEAR 125/Standart ver/2_hitam.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'GEAR 125 S Version',
@@ -676,7 +711,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2L',
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/GEAR 125/S ver/merah.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/GEAR 125/S ver/1_merah.png',
+                'type_motor' => 'matic'
             ],
 
             [
@@ -693,7 +729,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2L',
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Premium/abu.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Premium/2_abu.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'FINO SPORTY 125 BLUE CORE',
@@ -709,7 +746,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2L',
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Sporty/tosca.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Sporty/3_tosca.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'FAZZIO NEO',
@@ -726,6 +764,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Matic/Fazio/Neo/1_ijo.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'FAZZIO LUX',
@@ -741,7 +780,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '5.1L',
                 'sistem_start' => 'Electric Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/Fazio/Lux/hitam.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/Fazio/Lux/1_hitam.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'NEW X-RIDE',
@@ -758,6 +798,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Matic/X Ride/3_biru.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'Lexi',
@@ -774,6 +815,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/Lexi/Lexi/blue.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'Lexi S Version',
@@ -790,6 +832,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/Lexi/S ABS/2022040513275378298R31658.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'All New Aerox 155 C',
@@ -806,6 +849,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW AEROX 155 CONNECTED/Connected Ver/1_hitam.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'All New Aerox 155 C/ABS',
@@ -822,6 +866,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW AEROX 155 CONNECTED/Connected ABS Ver/silver.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'ALL NEW VIXION',
@@ -838,6 +883,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/VIXION/VIXIOn/2_merah.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW VIXION R',
@@ -854,6 +900,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/VIXION/R/hitam.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW R15 CONNECTED',
@@ -870,6 +917,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/ALL NEW R15 CONNECTED/Connected/2_biru.png',
+                'type_motor' => 'sport'
             ],
             [
                 'nama_produk' => 'ALL NEW R15 CONNECTED-ABS',
@@ -886,6 +934,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/ALL NEW R15 CONNECTED/Connected ABS/silver.png',
+                'type_motor' => 'sport'
             ],
             [
                 'nama_produk' => 'ALL NEW R15M CONNECTED-ABS WGP 60TH',
@@ -902,6 +951,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/ALL NEW R15 CONNECTED/Connected ABS WGP 60th/r.png',
+                'type_motor' => 'sport'
             ],
             [
                 'nama_produk' => 'ALL NEW XSR-155',
@@ -918,6 +968,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/XSR-155/3_biru.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW XSR-155 WGP 60TH',
@@ -934,6 +985,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/XSR-155/WGP 60th/2022021515510959881I62270.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'WR155R',
@@ -950,6 +1002,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Off Road/WR155R/WR155 R/1_hitam.png',
+                'type_motor' => 'offroad'
             ],
             [
                 'nama_produk' => 'WR155R GP MONSTER',
@@ -966,6 +1019,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Off Road/WR155R/WR155 R Monster Energy Yamaha Racing Liverly/biru.png',
+                'type_motor' => 'offroad'
             ],
             [
                 'nama_produk' => 'R25',
@@ -982,6 +1036,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/R25/3_biru.png',
+                'type_motor' => 'sport'
             ],
 
             [
@@ -999,6 +1054,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/MT-25/1_abu.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'MT-15',
@@ -1015,6 +1071,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/MT-15/2_biru.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW NMAX ABS CONNECTED',
@@ -1031,6 +1088,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW NMAX 155/Connected ABS Ver/hitam.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'ALL NEW NMAX 155 CONNECTED',
@@ -1047,6 +1105,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW NMAX 155/Connected Ver/red.png',
+                'type_motor' => 'maxi'
             ],
 
             [
@@ -1064,6 +1123,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW NMAX 155/Standart Ver/3_biru tua.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'XMAX',
@@ -1080,6 +1140,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/XMAX/1_hitam.png',
+                'type_motor' => 'maxi'
             ],
 
             //AE
@@ -1098,6 +1159,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/VEGA FORCE/1_hitam.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'JUPITER Z CW FI',
@@ -1114,6 +1176,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/JUPITER Z1/1_hitam.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'MX KING',
@@ -1130,6 +1193,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/MX KING 150/MX KING 150/3_biru.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'MX KING GP MONSTER',
@@ -1146,6 +1210,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/MX KING 150/MX KING 150 WGP 60th/2022030219293221324W22660.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'MIO M3 SPOKE',
@@ -1161,7 +1226,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2 L',
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/4_biru.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/1_hitam.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'MIO M3 CW',
@@ -1177,7 +1243,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2 L',
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/4_biru.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/1_hitam.png',
+                'type_motor' => 'matic'
             ],
 
             [
@@ -1195,6 +1262,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Matic/GEAR 125/Standart ver/2_hitam.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'GEAR 125 S Version',
@@ -1210,7 +1278,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2L',
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/GEAR 125/S ver/merah.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/GEAR 125/S ver/1_merah.png',
+                'type_motor' => 'matic'
             ],
 
             [
@@ -1227,7 +1296,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2L',
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Premium/abu.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Premium/2_abu.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'FINO SPORTY 125 BLUE CORE',
@@ -1243,7 +1313,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2L',
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Sporty/tosca.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Sporty/3_tosca.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'FAZZIO NEO',
@@ -1260,6 +1331,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Matic/Fazio/Neo/1_ijo.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'FAZZIO LUX',
@@ -1275,7 +1347,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '5.1L',
                 'sistem_start' => 'Electric Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/Fazio/Lux/hitam.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/Fazio/Lux/1_hitam.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'NEW X-RIDE',
@@ -1292,6 +1365,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Matic/X Ride/3_biru.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'Lexi',
@@ -1308,6 +1382,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/Lexi/Lexi/blue.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'Lexi S Version',
@@ -1324,6 +1399,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/Lexi/S ABS/2022040513275378298R31658.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'All New Aerox 155 C',
@@ -1340,6 +1416,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW AEROX 155 CONNECTED/Connected Ver/1_hitam.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'All New Aerox 155 C/ABS',
@@ -1356,6 +1433,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW AEROX 155 CONNECTED/Connected ABS Ver/silver.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'ALL NEW VIXION',
@@ -1372,6 +1450,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/VIXION/VIXIOn/2_merah.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW VIXION R',
@@ -1388,6 +1467,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/VIXION/R/hitam.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW R15 CONNECTED',
@@ -1404,6 +1484,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/ALL NEW R15 CONNECTED/Connected/2_biru.png',
+                'type_motor' => 'sport'
             ],
             [
                 'nama_produk' => 'ALL NEW R15 CONNECTED-ABS',
@@ -1420,6 +1501,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/ALL NEW R15 CONNECTED/Connected ABS/silver.png',
+                'type_motor' => 'sport'
             ],
             [
                 'nama_produk' => 'ALL NEW R15M CONNECTED-ABS WGP 60TH',
@@ -1436,6 +1518,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/ALL NEW R15 CONNECTED/Connected ABS WGP 60th/r.png',
+                'type_motor' => 'sport'
             ],
             [
                 'nama_produk' => 'ALL NEW XSR-155',
@@ -1452,6 +1535,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/XSR-155/3_biru.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW XSR-155 WGP 60TH',
@@ -1468,6 +1552,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/XSR-155/WGP 60th/2022021515510959881I62270.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'WR155R',
@@ -1484,6 +1569,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Off Road/WR155R/WR155 R/1_hitam.png',
+                'type_motor' => 'offroad'
             ],
             [
                 'nama_produk' => 'WR155R GP MONSTER',
@@ -1500,6 +1586,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Off Road/WR155R/WR155 R Monster Energy Yamaha Racing Liverly/biru.png',
+                'type_motor' => 'offroad'
             ],
             [
                 'nama_produk' => 'R25',
@@ -1516,6 +1603,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/R25/3_biru.png',
+                'type_motor' => 'sport'
             ],
 
             [
@@ -1533,6 +1621,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/MT-25/1_abu.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'MT-15',
@@ -1549,6 +1638,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/MT-15/2_biru.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW NMAX ABS CONNECTED',
@@ -1565,6 +1655,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW NMAX 155/Connected ABS Ver/hitam.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'ALL NEW NMAX 155 CONNECTED',
@@ -1581,6 +1672,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW NMAX 155/Connected Ver/red.png',
+                'type_motor' => 'maxi'
             ],
 
             [
@@ -1598,6 +1690,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW NMAX 155/Standart Ver/3_biru tua.png',
+                'type_motor' => 'maxi'
             ],
             [
                 'nama_produk' => 'XMAX',
@@ -1614,6 +1707,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/XMAX/1_hitam.png',
+                'type_motor' => 'maxi'
             ],
 
             //G
@@ -1632,6 +1726,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/VEGA FORCE/1_hitam.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'JUPITER Z CW FI',
@@ -1648,6 +1743,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/JUPITER Z1/1_hitam.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'MX KING',
@@ -1664,6 +1760,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/MX KING 150/MX KING 150/3_biru.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'MX KING GP MONSTER',
@@ -1680,6 +1777,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Moped/MX KING 150/MX KING 150 WGP 60th/2022030219293221324W22660.png',
+                'type_motor' => 'moped'
             ],
             [
                 'nama_produk' => 'MIO M3 SPOKE',
@@ -1695,7 +1793,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2 L',
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/4_biru.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/1_hitam.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'MIO M3 CW',
@@ -1711,7 +1810,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2 L',
                 'sistem_start' => 'Elektrik Starter & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/4_biru.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/MIO M3/Mio M3/1_hitam.png',
+                'type_motor' => 'matic'
             ],
 
             [
@@ -1729,6 +1829,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Matic/GEAR 125/Standart ver/2_hitam.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'GEAR 125 S Version',
@@ -1744,7 +1845,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2L',
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/GEAR 125/S ver/merah.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/GEAR 125/S ver/1_merah.png',
+                'type_motor' => 'matic'
             ],
 
             [
@@ -1761,7 +1863,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2L',
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Premium/abu.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Premium/2_abu.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'FINO SPORTY 125 BLUE CORE',
@@ -1777,7 +1880,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '4.2L',
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Sporty/tosca.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/Fino/Sporty/3_tosca.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'FAZZIO NEO',
@@ -1794,6 +1898,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Matic/Fazio/Neo/1_ijo.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'FAZZIO LUX',
@@ -1809,7 +1914,8 @@ class MotorSeeder extends Seeder
                 'kapasitas_tangki' => '5.1L',
                 'sistem_start' => 'Electric Starter',
                 // 'warna' => NULL,
-                'gambar' => 'assets/images/motor/SBR/Matic/Fazio/Lux/hitam.png',
+                'gambar' => 'assets/images/motor/SBR/Matic/Fazio/Lux/1_hitam.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'NEW X-RIDE',
@@ -1826,6 +1932,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric & Kick Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Matic/X Ride/3_biru.png',
+                'type_motor' => 'matic'
             ],
             [
                 'nama_produk' => 'Lexi',
@@ -1842,6 +1949,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/Lexi/Lexi/blue.png',
+                'type_motor' => 'lexi'
             ],
             [
                 'nama_produk' => 'Lexi S Version',
@@ -1858,6 +1966,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/Lexi/S ABS/2022040513275378298R31658.png',
+                'type_motor' => 'lexi'
             ],
             [
                 'nama_produk' => 'All New Aerox 155 C',
@@ -1874,6 +1983,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW AEROX 155 CONNECTED/Connected Ver/1_hitam.png',
+                'type_motor' => 'lexi'
             ],
             [
                 'nama_produk' => 'All New Aerox 155 C/ABS',
@@ -1890,6 +2000,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW AEROX 155 CONNECTED/Connected ABS Ver/silver.png',
+                'type_motor' => 'lexi'
             ],
             [
                 'nama_produk' => 'ALL NEW VIXION',
@@ -1906,6 +2017,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/VIXION/VIXIOn/2_merah.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW VIXION R',
@@ -1922,6 +2034,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/VIXION/R/hitam.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW R15 CONNECTED',
@@ -1938,6 +2051,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/ALL NEW R15 CONNECTED/Connected/2_biru.png',
+                'type_motor' => 'sport'
             ],
             [
                 'nama_produk' => 'ALL NEW R15 CONNECTED-ABS',
@@ -1954,6 +2068,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/ALL NEW R15 CONNECTED/Connected ABS/silver.png',
+                'type_motor' => 'sport'
             ],
             [
                 'nama_produk' => 'ALL NEW R15M CONNECTED-ABS WGP 60TH',
@@ -1970,6 +2085,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/ALL NEW R15 CONNECTED/Connected ABS WGP 60th/r.png',
+                'type_motor' => 'sport'
             ],
             [
                 'nama_produk' => 'ALL NEW XSR-155',
@@ -1986,6 +2102,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/XSR-155/3_biru.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW XSR-155 WGP 60TH',
@@ -2002,6 +2119,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/XSR-155/WGP 60th/2022021515510959881I62270.png',
+                'type_motor' => 'offroad'
             ],
             [
                 'nama_produk' => 'WR155R',
@@ -2018,6 +2136,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Off Road/WR155R/WR155 R/1_hitam.png',
+                'type_motor' => 'offroad'
             ],
             [
                 'nama_produk' => 'WR155R GP MONSTER',
@@ -2034,6 +2153,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Off Road/WR155R/WR155 R Monster Energy Yamaha Racing Liverly/biru.png',
+                'type_motor' => 'offroad'
             ],
             [
                 'nama_produk' => 'R25',
@@ -2050,6 +2170,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Sport/R25/3_biru.png',
+                'type_motor' => 'sport'
             ],
 
             [
@@ -2067,6 +2188,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/MT-25/1_abu.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'MT-15',
@@ -2083,6 +2205,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Elektrik Starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/Naked Bike/MT-15/2_biru.png',
+                'type_motor' => 'naked'
             ],
             [
                 'nama_produk' => 'ALL NEW NMAX ABS CONNECTED',
@@ -2099,6 +2222,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW NMAX 155/Connected ABS Ver/hitam.png',
+                'type_motor' => 'lexi'
             ],
             [
                 'nama_produk' => 'ALL NEW NMAX 155 CONNECTED',
@@ -2115,6 +2239,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW NMAX 155/Connected Ver/red.png',
+                'type_motor' => 'lexi'
             ],
 
             [
@@ -2132,6 +2257,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/ALL NEW NMAX 155/Standart Ver/3_biru tua.png',
+                'type_motor' => 'lexi'
             ],
             [
                 'nama_produk' => 'XMAX',
@@ -2148,6 +2274,7 @@ class MotorSeeder extends Seeder
                 'sistem_start' => 'Electric starter',
                 // 'warna' => NULL,
                 'gambar' => 'assets/images/motor/SBR/MAXI/XMAX/1_hitam.png',
+                'type_motor' => 'lexi'
             ],
         ])->each(function ($motors) {
             $motor = Motor::firstOrcreate($motors);

@@ -11,7 +11,8 @@
 <!-- CSS Libraries -->
 <link rel="stylesheet" href="{{ asset('Stisla/node_modules/bootstrap-daterangepicker/daterangepicker.css') }}">
 <link rel="stylesheet" href="{{ asset('Stisla/node_modules/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css') }}">
-<link rel="stylesheet" href="{{ asset('Stisla/node_modules/select2/dist/css/select2.min.css') }}">
+{{-- <link rel="stylesheet" href="{{ asset('Stisla/node_modules/select2/dist/css/select2.min.css') }}"> --}}
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 <link rel="stylesheet" href="{{ asset('Stisla/node_modules/selectric/public/selectric.css') }}">
 <link rel="stylesheet" href="{{ asset('Stisla/node_modules/bootstrap-timepicker/css/bootstrap-timepicker.min.css') }}">
 <link rel="stylesheet" href="{{ asset('Stisla/node_modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.css') }}">

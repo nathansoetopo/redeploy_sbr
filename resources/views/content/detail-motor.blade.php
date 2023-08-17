@@ -773,7 +773,7 @@
                 <center>
                     <p style="font-weight:400; color:grey; margin-bottom:10px;">klik untuk pilih warna</p>
                     <p style="font-weight:700; font-size:20px;">{{ $motors->nama_produk }}</p>
-                    <h6 style="font-weight:700; font-size:20px;" class="mt-2">{{ $motors->harga->harga }}</h6>
+                    <h6 style="font-weight:700; font-size:20px;" class="mt-2">Rp. {{ number_format($motors->harga->harga, 2) }}</h6>
                     <p style="font-weight:400; color:grey; margin-bottom:10px;" class="mt-2">Harga Rekomendasi OTR
                         <b>{{ $motors->harga->plat }}</b>
                     </p>
