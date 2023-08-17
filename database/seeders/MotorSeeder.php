@@ -2150,7 +2150,12 @@ class MotorSeeder extends Seeder
                 'gambar' => 'assets/images/motor/SBR/MAXI/XMAX/1_hitam.png',
             ],
         ])->each(function ($motors) {
-            Motor::firstOrcreate($motors);
+            $motor = Motor::firstOrcreate($motors);
+
+            $motor->harga()->create([
+                'plat' => $motors['plat'],
+                'harga' => 0,
+            ]);
         });
     }
 }

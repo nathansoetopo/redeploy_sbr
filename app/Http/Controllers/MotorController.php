@@ -9,8 +9,6 @@ use App\Models\Motor;
 use App\Models\Warna;
 use App\Models\Region;
 use Illuminate\Http\Request;
-use Symfony\Component\HttpKernel\Event\ViewEvent;
-use DB;
 
 class MotorController extends Controller
 {
@@ -60,29 +58,29 @@ class MotorController extends Controller
                 'volume' => 'required',
                 'kapasitas_tangki' => 'required',
                 'image' => 'required|mimes:jpg,jpeg,png',
-                'gambar_tabel' => 'required|mimes:jpg,jpeg,png',
-                'gambar_spek' => 'required|mimes:jpg,jpeg,png',
+                // 'gambar_tabel' => 'required|mimes:jpg,jpeg,png',
+                // 'gambar_spek' => 'required|mimes:jpg,jpeg,png',
                 'judul_image' => 'required|mimes:jpg,jpeg,png',
             ]
         );
 
         $gambar = $request->file('image');
-        $gambar_table = $request->file('gambar_tabel');
-        $gambar_spek = $request->file('gambar_spek');
+        // $gambar_table = $request->file('gambar_tabel');
+        // $gambar_spek = $request->file('gambar_spek');
         $gambar_judul = $request->file('judul_image');
         $name_gen = hexdec(uniqid()) . '.' . $gambar->getClientOriginalExtension();
-        $name_tbl = hexdec(uniqid()) . '.' . $gambar_table->getClientOriginalExtension();
-        $name_spek = hexdec(uniqid()) . '.' . $gambar_spek->getClientOriginalExtension();
+        // $name_tbl = hexdec(uniqid()) . '.' . $gambar_table->getClientOriginalExtension();
+        // $name_spek = hexdec(uniqid()) . '.' . $gambar_spek->getClientOriginalExtension();
         $name_judul = hexdec(uniqid()) . '.' . $gambar_judul->getClientOriginalExtension();
 
         Image::make($gambar)->resize(560, 460)->save('images/motor/' . $name_gen);
-        Image::make($gambar_table)->save('images/tabel/' . $name_tbl);
-        Image::make($gambar_spek)->save('images/spesifikasi/' . $name_spek);
+        // Image::make($gambar_table)->save('images/tabel/' . $name_tbl);
+        // Image::make($gambar_spek)->save('images/spesifikasi/' . $name_spek);
         Image::make($gambar_judul)->save('images/judul/' . $name_judul);
 
         $last_img = 'images/motor/' . $name_gen;
-        $tabel_img = 'images/tabel/' . $name_tbl;
-        $spek_img = 'images/spesifikasi/' . $name_spek;
+        // $tabel_img = 'images/tabel/' . $name_tbl;
+        // $spek_img = 'images/spesifikasi/' . $name_spek;
         $judul_img = 'images/judul/' . $name_judul;
 
         $data = Motor::create([
@@ -100,8 +98,8 @@ class MotorController extends Controller
             'kapasitas_tangki' => $request->kapasitas_tangki,
             'created_at' => Carbon::now(),
             'gambar' => $last_img,
-            'gambar_tabel' => $tabel_img,
-            'gambar_spek' => $spek_img,
+            // 'gambar_tabel' => $tabel_img,
+            // 'gambar_spek' => $spek_img,
             'judul_image' => $judul_img,
         ]);
 
@@ -248,7 +246,6 @@ class MotorController extends Controller
             ]);
             return redirect()->back()->with('success', 'Motor Updated Successfully');
         } else if ($judul_image) {
-
             $name_jdl = hexdec(uniqid()) . '.' . $judul_image->getClientOriginalExtension();
             Image::make($judul_image)->save('images/judul/' . $name_jdl);
             $judul_img = 'images/judul/' . $name_jdl;

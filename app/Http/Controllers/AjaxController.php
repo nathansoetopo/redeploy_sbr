@@ -24,10 +24,6 @@ class AjaxController extends Controller
         if($request->ajax()){
             if($request->get('query') != 'all'){
                 $motor = Motor::find($request->get('query'));
-                // echo $motor->harga;
-                // foreach($motor->harga as $h){
-                //     echo $h->harga;
-                // }
                 if($motor->gambar == NULL){
                     $gambar = 'assets/images/team_01.jpg';
                 }else{

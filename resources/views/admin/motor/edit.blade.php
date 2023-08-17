@@ -26,7 +26,18 @@
                                         <h4>Edit Motor</h4>
                                     </div>
                                     <div class="card-body">
-                                        <form action="{{ url('admin/motor/update/'.$motors->id) }}" method="POST"
+                                        @if (count($errors) > 0)
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="alert alert-danger">
+                                                        @foreach ($errors->all() as $error)
+                                                            <div>{{ $error }}</div>
+                                                        @endforeach
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        @endif
+                                        <form action="{{ url('admin/motor/update/' . $motors->id) }}" method="POST"
                                             enctype="multipart/form-data">
                                             @csrf
                                             <input type="hidden" name="old_image" value="{{ $motors->gambar }}">
@@ -56,7 +67,7 @@
                                                             {{ $motors->transmisi == 'Manual' ? 'selected' : '' }}>
                                                             Manual</option>
                                                         <option value="Matic"
-                                                            {{ $motors->transmisi == 'Matic' ? 'selected' : ''}}>Matic
+                                                            {{ $motors->transmisi == 'Matic' ? 'selected' : '' }}>Matic
                                                         </option>
                                                     </select>
                                                 </div>
@@ -69,11 +80,14 @@
                                                     <select class="form-control select2" name="plat">
                                                         <option value="AD"
                                                             {{ $motors->plat == 'AD' ? 'selected' : '' }}>AD</option>
-                                                        <option value="AB" {{ $motors->plat == 'AB' ? 'selected' : ''}}>
+                                                        <option value="AB"
+                                                            {{ $motors->plat == 'AB' ? 'selected' : '' }}>
                                                             AB</option>
-                                                        <option value="G" {{ $motors->plat == 'G' ? 'selected' : ''}}>G
+                                                        <option value="G"
+                                                            {{ $motors->plat == 'G' ? 'selected' : '' }}>G
                                                         </option>
-                                                        <option value="AE" {{ $motors->plat == 'AE' ? 'selected' : ''}}>
+                                                        <option value="AE"
+                                                            {{ $motors->plat == 'AE' ? 'selected' : '' }}>
                                                             AE</option>
                                                     </select>
                                                 </div>
@@ -104,21 +118,23 @@
                                                             {{ $motors->type_motor == 'Matic' ? 'selected' : '' }}>
                                                             Matic</option>
                                                         <option value="Maxi"
-                                                            {{ $motors->type_motor == 'Maxi' ? 'selected' : ''}}>Maxi
+                                                            {{ $motors->type_motor == 'Maxi' ? 'selected' : '' }}>Maxi
                                                         </option>
                                                         <option value="Naked Bike"
-                                                            {{ $motors->type_motor == 'Naked Bike' ? 'selected' : ''}}>
+                                                            {{ $motors->type_motor == 'Naked Bike' ? 'selected' : '' }}>
                                                             Naked Bike
                                                         </option>
                                                         <option value="Sport"
-                                                            {{ $motors->type_motor == 'Sport' ? 'selected' : ''}}>Sport
+                                                            {{ $motors->type_motor == 'Sport' ? 'selected' : '' }}>
+                                                            Sport
                                                         </option>
                                                         <option value="Offroad"
-                                                            {{ $motors->type_motor == 'Offroad' ? 'selected' : ''}}>
+                                                            {{ $motors->type_motor == 'Offroad' ? 'selected' : '' }}>
                                                             Offroad
                                                         </option>
                                                         <option value="Moped"
-                                                            {{ $motors->type_motor == 'Moped' ? 'selected' : ''}}>Moped
+                                                            {{ $motors->type_motor == 'Moped' ? 'selected' : '' }}>
+                                                            Moped
                                                         </option>
                                                     </select>
                                                 </div>
@@ -173,7 +189,8 @@
                                                     class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Kapasistas
                                                     Tangki</label>
                                                 <div class="col-sm-12 col-md-7">
-                                                    <input type="text" class="form-control" name="kapasitas_tangki"
+                                                    <input type="text" class="form-control"
+                                                        name="kapasitas_tangki"
                                                         value="{{ $motors->kapasitas_tangki }}">
                                                 </div>
                                             </div>
@@ -192,7 +209,8 @@
                                                     class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Gambar
                                                     Judul</label>
                                                 <div class="col-sm-12 col-md-7">
-                                                    <input type="file" class="form-control mb-3" name="judul_image">
+                                                    <input type="file" class="form-control mb-3"
+                                                        name="judul_image">
                                                     <img src="{{ asset($motors->judul_image) }}" alt=""
                                                         style="height: 200px; width:400px;">
                                                 </div>
@@ -202,7 +220,8 @@
                                                     class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Gambar
                                                     Tabel</label>
                                                 <div class="col-sm-12 col-md-7">
-                                                    <input type="file" class="form-control mb-3" name="gambar_tabel">
+                                                    <input type="file" class="form-control mb-3"
+                                                        name="gambar_tabel">
                                                     <img src="{{ asset($motors->gambar_tabel) }}" alt=""
                                                         style="height: 200px; width:400px;">
                                                 </div>
@@ -212,7 +231,8 @@
                                                     class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Gambar
                                                     Spesifikasi</label>
                                                 <div class="col-sm-12 col-md-7">
-                                                    <input type="file" class="form-control mb-3" name="gambar_spek">
+                                                    <input type="file" class="form-control mb-3"
+                                                        name="gambar_spek">
                                                     <img src="{{ asset($motors->gambar_spek) }}" alt=""
                                                         style="height: 200px; width:400px;">
                                                 </div>
@@ -243,7 +263,7 @@
 
     <script type="text/javascript">
         var rupiah = document.getElementById('rupiah');
-        rupiah.addEventListener('keyup', function (e) {
+        rupiah.addEventListener('keyup', function(e) {
             // tambahkan 'Rp.' pada saat form di ketik
             // gunakan fungsi formatRupiah() untuk mengubah angka yang di ketik menjadi format angka
             rupiah.value = formatRupiah(this.value, 'Rp. ');
@@ -266,7 +286,6 @@
             rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
             return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
         }
-
     </script>
 </body>
 
